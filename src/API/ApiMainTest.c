@@ -6,8 +6,11 @@
  */
 
 #include <stdio.h>
+#include <pthread.h>
 #include "API/H/ApiTest.h"
 #include "API/H/MacroTest.h"
+
+
 
 
 //引用 ApiTest.c 模块 中 constAPI 函数 
@@ -35,6 +38,9 @@ void macroTestMain() {
 	macroAliasName();
 	getENV_ENTRY();
 	
+	
+	
+	//做一个变动
 	puts("macroTestMain 结束====");
 	cArrayTestAPI();
 }
