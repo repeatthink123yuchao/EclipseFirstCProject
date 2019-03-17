@@ -6,7 +6,6 @@
  */
 
 #include <stdio.h>
-#include <pthread.h>
 #include "API/H/ApiTest.h"
 #include "API/H/MacroTest.h"
 

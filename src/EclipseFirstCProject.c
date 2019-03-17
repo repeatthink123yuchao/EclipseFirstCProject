@@ -10,6 +10,13 @@ void pointerAPITest() {
 	puts("pointerAPITest 结束====");
 }
 
+void pointerAPITest2() {
+	puts("pointerAPITest2 开始====");
+
+	puts("pointerAPITest2 结束====");
+}
+
+
 
 
 //引入 其他文件中的函数
