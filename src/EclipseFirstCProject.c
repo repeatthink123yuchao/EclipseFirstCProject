@@ -24,6 +24,6 @@ int main(void) {
 //	printf("a的值 %d \n",a);
 	
 	//宏定义测试
-	macroTestMain();
+	macroTestMain(); 
 	return 0;
 }
